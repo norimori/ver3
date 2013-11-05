@@ -20,6 +20,7 @@ $(function() {
 		}
 		itemOptionName = $(document.createElement('dt'));
 		itemOptionName.html(item.name);
+		console.log(pizzaType);
 		place = $(".col-md-6").find('.' + pizzaType);
 		place.append();
 		itemOptionDescription = $(document.createElement('dd'));
