@@ -48,15 +48,15 @@ $(function() {
 
 function otherMenus(type) {
 	var i; //iterator
-	var item; //current item iteration
+	var item; //Current item iteration
 	var itemName;
 	var itemPrice;
-	var place;
-	console.log(com.dawgpizza.menu.drinks);
+	var place; //Location to append item
+	//console.log(com.dawgpizza.menu.drinks);
 	 for (i = 0; i < com.dawgpizza.menu.drinks; i++) {
 	 	item = com.dawgpizza.menu.drinks[i];
 	 	itemName = $(document.createElement('li'));
 	 	itemName.html();
-	 	$('.' + type).append(itemName.append($('<span/>', {text: '$' + item.price})));
+	 	$('.drink').append(itemName.append($('<span/>', {text: '$' + item.price})));
 	 }
 };
