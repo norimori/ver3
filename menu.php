@@ -1,5 +1,10 @@
 <?php include("header.html"); ?>
-
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#pawnee-carousel" data-slide-to="0"></li>
+			<li data-target="#pawnee-carousel" data-slide-to="1" class="active"></li>
+			<li data-target="#pawnee-carousel" data-slide-to="2"></li>
+		</ol>
 		<!-- Slides -->
 		<div class="carousel-inner">
 			<div class="item">
