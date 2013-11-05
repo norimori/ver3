@@ -42,12 +42,11 @@ $(function() {
 	}
 
 	//Populate menu with drinks and desserts
-	otherMenus("drink");
-	otherMenus("dessert");
+	otherMenus("drinks");
+	otherMenus("desserts");
 }); //Document on ready
 
 function otherMenus(type) {
-	alert(yay);
 	var i; //iterator
 	var item; //current item iteration
 	var itemName;
