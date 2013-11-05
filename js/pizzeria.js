@@ -45,6 +45,7 @@ $(function() {
 
 function otherMenus(menuType) {
 	var menuType = menuType;
+	console.log(com.dawgpizza.menu.menuType);
 	var i; //iterator
 	var item; //Current item iteration
 	var itemName;
