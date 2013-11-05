@@ -44,7 +44,6 @@ $(function() {
 }); //Document on ready
 
 function otherMenus(menuType) {
-	var menuType = menuType;
 	var i; //iterator
 	var item; //Current item iteration
 	var itemName;
@@ -55,7 +54,6 @@ function otherMenus(menuType) {
 	 	item = com.dawgpizza.menu.drinks[i];
 	 	itemName = $(document.createElement('li'));
 	 	itemName.html(item.name);
-	 	console.log(item.name);
 	 	//$('.' + menuType).append(itemName.append($('<span/>', {text: ' $' + item.price}, {'class': 'cost'})));
 	 	$('.' + menuType).append(itemName.append($('<span/>', {text: ' $' + item.price})));
 	 	$('.drinks span').addClass('cost');
