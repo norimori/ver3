@@ -47,16 +47,16 @@
 			<p id="customize">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</p>
 		</div>
 		<div class="row">
-			<div class="col-md-6 meat">
+			<div class="col-md-6">
 				<h4>Meat Pies</h4>
-				<dl>
+				<dl class="meat">
 					<dt>Classic Pepperoni</dt>
 					<dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce. <span class="cost">$10/$13/$16</span></dd>
 				</dl>
 			</div>
-			<div class="col-md-6 vegetarian">
+			<div class="col-md-6">
 				<h4>Vegetarian Pies</h4>
-				<dl>
+				<dl class="vegetarian">
 					<dt>Margherita</dt>
 					<dd>Mozzarella, Basil, Salt on an Olive Oil Base.  <span class="cost">$10/$13/$16</span></dd>
 				</dl>
@@ -65,14 +65,14 @@
 		<hr>
 		<div class="center-text">
 			<h3 class="highlights">Drinks</h3>
-			<ul id="drinks">
+			<ul id="drink">
 				<li>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can <span class="cost">($4)</span></li>
 				<li>Rainier Beer by the can <span class="cost">($4)</span></li>
 				<li>House Red Wine by the glass or bottle <span class="cost">($10/$40)</span></li>
 			</ul>
 			<hr>
 			<h3 class="highlights">Dessert</h3>
-			<ul>
+			<ul id="dessert">
 				<li>Chocolate Gelato <span class="cost">($8)</span></li>
 				<li>Lemon Sorbet <span class="cost">($7)</span></li>
 				<li>Ricotta Cheese Cake <span class="cost">($10)</span</li>
