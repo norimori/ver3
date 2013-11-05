@@ -2,9 +2,6 @@
 
 //Document on ready
 $(function() {
-	var menu = $(".row col-md-6"); //grabs 2 columns in row
-	console.log("should be 2: " + menu.length);
-
 	var i; //iterator
 	var pizza; //Current pizza iteration
 	var pizzaName;
@@ -47,6 +44,8 @@ $(function() {
 }); //Document on ready
 
 function otherMenus(type) {
+	var t = type;
+	console.log(t);
 	var i; //iterator
 	var item; //Current item iteration
 	var itemName;
