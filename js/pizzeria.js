@@ -54,8 +54,8 @@ function otherMenus(menuType) {
 	 for (i = 0; i < com.dawgpizza.menu.drinks.length; i++) {
 	 	item = com.dawgpizza.menu.drinks[i];
 	 	itemName = $(document.createElement('li'));
-	 	itemName.html(item.name);
+	 	itemName.html(" " + item.name);
 	 	console.log(item.name);
-	 	$('.' + menuType).append(itemName.append($('<span/>', {text: '$' + item.price})));
+	 	$('.' + menuType).append(itemName.append($('<span/>', {text: '$' + item.price}, {'class': 'cost'})));
 	 }
 };

@@ -67,9 +67,7 @@
 			<hr>
 			<h3 class="highlights">Dessert</h3>
 			<ul class="desserts">
-				<li>Chocolate Gelato <span class="cost">($8)</span></li>
-				<li>Lemon Sorbet <span class="cost">($7)</span></li>
-				<li>Ricotta Cheese Cake <span class="cost">($10)</span</li>
+				<!--<li>Chocolate Gelato <span class="cost">($8)</span></li>-->
 			</ul>
 		</div>
 	</div>
