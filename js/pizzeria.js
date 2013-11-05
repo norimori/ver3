@@ -22,9 +22,10 @@ $(function() {
 		itemOptionName.html(item.name);
 		place = $(".col-md-6").find('.' + pizzaType);
 		place.append(itemOptionName);
-		place.append("<br>");
 		itemOptionDescription = $(document.createElement('dd'));
 		itemOptionDescription.html(item.description);
+		place.append(itemOptionDescription);
+		place.append('<br>');
 
 		//Get prices of item
 		var prices = ". $" + item.prices[0];
@@ -32,7 +33,6 @@ $(function() {
 		for (j = 1; j < item.prices.length; j++) {
 			prices = prices + ", " + item.prices[j];
 		}
-
-		place.append(itemOptionDescription.append($('<span/>', {'text': prices})));
+		place.append($('<span/>', {'class': 'cost'}, {'text': prices}));
 	}
 });
