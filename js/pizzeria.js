@@ -42,8 +42,8 @@ $(function() {
 	}
 
 	//Populate menu with drinks and desserts
-	otherMenus(drink);
-	otherMenus(dessert);
+	otherMenus("drink");
+	otherMenus("dessert");
 }); //Document on ready
 
 function otherMenus(type) {
