@@ -28,14 +28,10 @@ $(function() {
 
 		var prices = item.prices[0];
 		var j;
-		place.append(itemOptionDescription.append(
-			$('<span/>', {'class': 'price'}, {'text': 
-				for (j = 1; j < item.prices.length; j++) {
-					prices + "," + item.prices[j];
-				}
-				console.log(prices);
-				prices	
-			})
-		)
+		for (j = 1; j < item.prices.length; j++) {
+			prices + "," + item.prices[j];
+		}
+		console.log(prices);
+		place.append(itemOptionDescription.append($('<span/>', {'class': 'price'}, {'text': prices}));
 	}
 });
