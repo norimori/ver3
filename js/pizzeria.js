@@ -32,6 +32,6 @@ $(function() {
 			prices + "," + item.prices[j];
 		}
 		console.log(prices);
-		place.append(itemOptionDescription.append($('<span/>', {'class': 'price'}, {'text': prices}));
+		place.append(itemOptionDescription.append($('<span/>', {'class': 'price'}, {'text': prices})));
 	}
 });
