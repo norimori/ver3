@@ -32,7 +32,7 @@ $(function() {
 		for (j = 1; j < item.prices.length; j++) {
 			prices = prices + "/$" + item.prices[j];
 		}
-		itemOptionCost = $(document.createElement('span'));
+		itemOptionCost = $(document.createElement('dd'));
 		itemOptionCost.html(prices);
 		itemOptionCost.addClass('cost');
 		place.append(itemOptionCost);
