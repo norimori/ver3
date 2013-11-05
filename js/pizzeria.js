@@ -47,6 +47,7 @@ $(function() {
 }); //Document on ready
 
 function otherMenus(type) {
+	console.log(type);
 	var i; //iterator
 	var item; //current item iteration
 	var itemName;
