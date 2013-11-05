@@ -28,13 +28,14 @@ $(function() {
 		place.append('<br>');
 
 		//Get prices of item
-		var prices = ". $" + item.prices[0];
+		var prices = "$" + item.prices[0];
 		var j;
 		for (j = 1; j < item.prices.length; j++) {
-			prices = prices + ", " + item.prices[j];
+			prices = prices + "/$" + item.prices[j];
 		}
 		itemOptionCost = $(document.createElement('span'));
 		itemOptionCost.html(prices);
+		itemOptionCost.addClass('cost');
 		place.append(itemOptionCost);
 		//place.append($('<span/>', {'class': 'cost'}, {'text': prices}));
 		//place.append("<span class='cost'>" + prices + "</span>");
