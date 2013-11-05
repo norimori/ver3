@@ -33,7 +33,10 @@ $(function() {
 		for (j = 1; j < item.prices.length; j++) {
 			prices = prices + ", " + item.prices[j];
 		}
+		itemOptionCost = $(document.createElement('span'));
+		itemOptionCost.html(prices);
+		place.append(itemOptionCost);
 		//place.append($('<span/>', {'class': 'cost'}, {'text': prices}));
-		place.append("<span class='cost'>" + prices + "</span>");
+		//place.append("<span class='cost'>" + prices + "</span>");
 	}
 });
