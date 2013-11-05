@@ -62,9 +62,7 @@
 		<div class="center-text">
 			<h3 class="highlights">Drinks</h3>
 			<ul class="drink">
-				<li>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can <span class="cost">($4)</span></li>
-				<li>Rainier Beer by the can <span class="cost">($4)</span></li>
-				<li>House Red Wine by the glass or bottle <span class="cost">($10/$40)</span></li>
+				<!--<li>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can <span class="cost">($4)</span></li>-->
 			</ul>
 			<hr>
 			<h3 class="highlights">Dessert</h3>
