@@ -1,4 +1,4 @@
-//Dynamically add menu items
+//Dynamically add menu pizzas
 
 //Document on ready
 $(function() {
@@ -6,35 +6,53 @@ $(function() {
 	console.log("should be 2: " + menu.length);
 
 	var i; //iterator
-	var item; //current menu item
-	var itemOptionName; //HTML name of item
-	var itemOptionDescription;// HTML description of item
-	var pizzaType; //Meat or Vegetarian
-	var place; //where to append item
+	var pizza; //Current pizza iteration
+	var pizzaName;
+	var pizzaDescription;
+	var pizzaType; //Meat or Vegetarian pizza type
+	var place; //Location to append pizza
 	for (i = 0; i < com.dawgpizza.menu.pizzas.length; i++) {
-		item = com.dawgpizza.menu.pizzas[i]; //Current pizza
-		if(item.vegetarian) {
+		pizza = com.dawgpizza.menu.pizzas[i];
+
+		//Determine pizza type
+		if(pizza.vegetarian) {
 			pizzaType = 'vegetarian';
 		} else {
 			pizzaType = 'meat';
 		}
-		itemOptionName = $(document.createElement('dt'));
-		itemOptionName.html(item.name);
-		place = $(".col-md-6").find('.' + pizzaType);
-		place.append(itemOptionName);
-		itemOptionDescription = $(document.createElement('dd'));
-		itemOptionDescription.html(item.description);
-		place.append(itemOptionDescription);
 
-		//Get prices of item
-		var prices = "$" + item.prices[0];
-		var j;
-		for (j = 1; j < item.prices.length; j++) {
-			prices = prices + "/$" + item.prices[j];
+		pizzaName = $(document.createElement('dt'));
+		pizzaName.html(pizza.name);
+		place = $(".col-md-6").find('.' + pizzaType); //Find appropriate column to append
+		place.append(pizzaName);
+		pizzaDescription = $(document.createElement('dd'));
+		pizzaDescription.html(pizza.description);
+		place.append(pizzaDescription);
+
+		//Get prices of pizza
+		var prices = "$" + pizza.prices[0];
+		var j; //iterator
+		for (j = 1; j < pizza.prices.length; j++) {
+			prices = prices + "/$" + pizza.prices[j];
 		}
-		itemOptionCost = $(document.createElement('dd'));
-		itemOptionCost.html(prices);
-		itemOptionCost.addClass('cost');
-		place.append(itemOptionCost);
+		pizzaCost = $(document.createElement('dd'));
+		pizzaCost.html(prices);
+		pizzaCost.addClass('cost');
+		place.append(pizzaCost);
 	}
-});
+
+	//Populate menu with drinks and desserts
+	otherMenus(drink);
+	otherMenus(dessert);
+}); //Document on ready
+
+function otherMenus(type) {
+	var i; //iterator
+	var item; //current item iteration
+	var itemName;
+	var itemPrice;
+	console.log(com.dawgpizza.menu.type);
+	 for (i = 0; i < com.dawgpizza.menu.type; i++) {
+
+	 }
+};
