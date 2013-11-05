@@ -21,17 +21,17 @@ $(function() {
 		itemOptionName = $(document.createElement('dt'));
 		itemOptionName.html(item.name);
 		place = $(".col-md-6").find('.' + pizzaType);
-		console.log(place);
 		place.append(itemOptionName);
 		itemOptionDescription = $(document.createElement('dd'));
 		itemOptionDescription.html(item.description);
 
+		//Get prices of item
 		var prices = item.prices[0];
 		var j;
 		for (j = 1; j < item.prices.length; j++) {
 			prices = prices + ", " + item.prices[j];
 		}
-		console.log(prices);
-		place.append(itemOptionDescription.append($('<span/>', {'class': 'price'}, {'text': prices})));
+
+		place.append(itemOptionDescription.append($('<span/>', {'text': prices})));
 	}
 });
