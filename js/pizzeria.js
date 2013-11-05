@@ -24,7 +24,7 @@ $(function() {
 		place.append(itemOptionName);
 		itemOptionDescription = $(document.createElement('dd'));
 		itemOptionDescription.html(item.description);
-		place.append(itemOptionDescription + '.');
+		place.append(itemOptionDescription);
 
 		//Get prices of item
 		var prices = "$" + item.prices[0];
