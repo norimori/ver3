@@ -40,19 +40,18 @@ $(function() {
 
 	//Populate menu with drinks and desserts
 	otherMenus("drinks");
-	otherMenus("desserts");
+	//otherMenus("desserts");
 }); //Document on ready
 
 function otherMenus(menuType) {
 	var menuType = menuType;
-	console.log(com.dawgpizza.menu.menuType);
 	var i; //iterator
 	var item; //Current item iteration
 	var itemName;
 	var itemPrice;
 	var place; //Location to append item
 	//console.log(com.dawgpizza.menu.drinks);
-	 for (i = 0; i < com.dawgpizza.menu.menuType.length; i++) {
+	 for (i = 0; i < com.dawgpizza.menu.drinks.length; i++) {
 	 	item = com.dawgpizza.menu.menuType[i];
 	 	itemName = $(document.createElement('li'));
 	 	itemName.html(item.name);
