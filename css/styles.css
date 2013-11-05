@@ -174,10 +174,6 @@ hr {
 	text-align: center;
 }
 
-dd {
-	margin-bottom: 10px;
-}
-
 #customize {
 	font-weight: bold;
 	font-style: italic;
@@ -193,7 +189,7 @@ dd {
 .cost {
 	color: #baa400;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 #size {
