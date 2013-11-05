@@ -47,34 +47,18 @@
 			<p id="customize">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</p>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 meat">
 				<h4>Meat Pies</h4>
 				<dl>
 					<dt>Classic Pepperoni</dt>
 					<dd>Pepperoni and Mozzarella on our Spicy Tomato Sauce. <span class="cost">$10/$13/$16</span></dd>
-					<dt>The Hawaiian</dt>
-					<dd>Canadian Bacon and Pineapple with Mozzarella on a rich Tomato Sauce.  <span class="cost">$12/$14/$17</span></dd>
-					<dt>Duck, Duck, Goose</dt>
-					<dd>Roasted Duck and Goose with Bacon, Chestnuts on a rich Plum Sauce.  <span class="cost">$15/$17/$19</span></dd>
-					<dt>The Bambi</dt>
-					<dd>Slow-cooked Venison with Red Cabbage on our famous Black Cherry Sauce.  <span class="cost">$15/$17/$19</span></dd>
-					<dt>The Ultimate</dt>
-					<dd>Pepperoni, Bacon, Canadian Bacon, Chicken, Duck, Goose, and Ground Beef with Smoked Mozzarella on our Spicy Tomato Sauce. Add Venison or Elk for an extra $2!  <span class="cost">$15/$19/$23</span></dd>
 				</dl>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 vegetarian">
 				<h4>Vegetarian Pies</h4>
 				<dl>
 					<dt>Margherita</dt>
 					<dd>Mozzarella, Basil, Salt on an Olive Oil Base.  <span class="cost">$10/$13/$16</span></dd>
-					<dt>Veggie Madness</dt>
-					<dd>Mushroom, Black Olive, Onions, Roasted Garlic, Squash and Roasted Eggplant on our Spicy Tomato Sauce.  <span class="cost">$11/$14/$17</span></dd>
-					<dt>Forest Floor</dt>
-					<dd>Three kinds of mushrooms with Mozzarella on a herb Tomato Sauce.  <span class="cost">$11/$14/$17</span></dd>
-					<dt>Mr. Green</dt>
-					<dd>Roasted Chicken with Romano on a Basil Pesto sauce. <span class="cost">$13/$16/$19</span></dd>
-					<dt>Purple Monster</dt>
-					<dd>Roasted Eggplant and Cabbage stir fried in sesame oil on a rich Plum Sauce.  <span class="cost">$11/$14/$17</span></dd>
 				</dl>
 			</div>
 		</div>
