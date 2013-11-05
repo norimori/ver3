@@ -25,7 +25,6 @@ $(function() {
 		itemOptionDescription = $(document.createElement('dd'));
 		itemOptionDescription.html(item.description);
 		place.append(itemOptionDescription);
-		place.append('<br>');
 
 		//Get prices of item
 		var prices = "$" + item.prices[0];
@@ -37,7 +36,5 @@ $(function() {
 		itemOptionCost.html(prices);
 		itemOptionCost.addClass('cost');
 		place.append(itemOptionCost);
-		//place.append($('<span/>', {'class': 'cost'}, {'text': prices}));
-		//place.append("<span class='cost'>" + prices + "</span>");
 	}
 });
