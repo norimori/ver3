@@ -47,12 +47,11 @@ $(function() {
 }); //Document on ready
 
 function otherMenus(type) {
-	console.log(type);
 	var i; //iterator
 	var item; //current item iteration
 	var itemName;
 	var itemPrice;
-	console.log(com.dawgpizza.menu.type);
+	console.log(com.dawgpizza.menu. + type);
 	 for (i = 0; i < com.dawgpizza.menu.type; i++) {
 
 	 }
