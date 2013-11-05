@@ -21,7 +21,8 @@ $(function() {
 		itemOptionName = $(document.createElement('dt'));
 		itemOptionName.html(item.name);
 		place = $(".col-md-6").find('.' + pizzaType);
-		place.append(itemOptionName + "<br>");
+		place.append(itemOptionName);
+		place.append("<br>");
 		itemOptionDescription = $(document.createElement('dd'));
 		itemOptionDescription.html(item.description);
 
