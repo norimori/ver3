@@ -61,12 +61,12 @@
 		<hr>
 		<div class="center-text">
 			<h3 class="highlights">Drinks</h3>
-			<ul class="drink">
+			<ul class="drinks">
 				<!--<li>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can <span class="cost">($4)</span></li>-->
 			</ul>
 			<hr>
 			<h3 class="highlights">Dessert</h3>
-			<ul class="dessert">
+			<ul class="desserts">
 				<li>Chocolate Gelato <span class="cost">($8)</span></li>
 				<li>Lemon Sorbet <span class="cost">($7)</span></li>
 				<li>Ricotta Cheese Cake <span class="cost">($10)</span</li>
