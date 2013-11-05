@@ -53,7 +53,7 @@ function otherMenus(type) {
 	var place; //Location to append item
 	//console.log(com.dawgpizza.menu.drinks);
 	 for (i = 0; i < com.dawgpizza.menu.drinks; i++) {
-	 	item = com.dawgpizza.menu.[i];
+	 	item = com.dawgpizza.menu.drinks[i];
 	 	itemName = $(document.createElement('li'));
 	 	itemName.html(item.name);
 	 	console.log(item.name);
