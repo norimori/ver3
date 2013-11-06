@@ -56,7 +56,17 @@
 			</div>
 		</div>
 	</main>
-
+				<div id="quickref">
+					Hours: 10:00AM - 11:00PM Monday through Saturday<br>
+				Call for Delivery: (206) 555-1212<br>
+				Address:<br>
+				<address class="indent">
+					<a href="https://maps.google.com/?q=4306%20University%20Way%20NE,%20Seattle,%20WA%2098105">
+					4306 University Way NE <br>
+					Seattle, WA 98105<br>
+					</a>
+				</address>
+			</div>
 	<!-- auto-play the carousel only for Home -->
 	<script>
 	    $('.carousel').carousel();
