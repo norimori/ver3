@@ -72,7 +72,7 @@ nav li {
 	transition: all 0.3s ease; 
 }
 
-nav li:hover {
+nav li:hover, nav li:focus {
 	background-color: #ecbf0f;
 }
 
