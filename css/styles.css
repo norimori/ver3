@@ -75,14 +75,14 @@ nav li, nav a{
 	transition: all 0.3s ease; 
 }
 
-nav li:hover, nav a:focus {
+nav li:hover {
 	background-color: #ecbf0f;
 }
 
-ul a:focus {
+nav li:focus {
 	background-image: none;
 	background-color: #ecbf0f;
-	border: solid 10px black;
+	border: solid 20px black;
 }
 
 nav ul {
