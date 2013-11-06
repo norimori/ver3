@@ -1,40 +1,6 @@
 <?php include("header.html"); ?>
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#pawnee-carousel" data-slide-to="0"></li>
-			<li data-target="#pawnee-carousel" data-slide-to="1" class="active"></li>
-			<li data-target="#pawnee-carousel" data-slide-to="2"></li>
-		</ol>
-		<!-- Slides -->
-		<div class="carousel-inner">
-			<div class="item">
-				<img src="img/pizza1.jpg" alt="Pizza Photo">
-				<div class="carousel-caption">
-					<a href="index.php"><h1>Our Delicious Pizzas</h1></a>
-				</div>
-			</div>
-			<div class="item active">
-				<img src="img/pizza-order.jpg" alt="Pizza Order Photo">
-				<div class="carousel-caption">
-					<a href="menu.php"><h1>Order Up!</h1></a>
-				</div>
-			</div>
-			<div class="item">
-				<img src="img/pizza-oven.jpg" alt="Pizza Oven Photo">
-				<div class="carousel-caption">
-					<a href="about.php"><h1>Crispy and Juicy</h1></a>
-				</div>
-			</div>
-		</div> <!-- Slides -->
-	    <!-- Left-right controls -->
-	    <a class="left carousel-control" href="#pawnee-carousel" data-slide="prev">
-	        <span class="icon-prev"></span>
-	    </a>
-	    <a class="right carousel-control" href="#pawnee-carousel" data-slide="next">
-	        <span class="icon-next"></span>
-	    </a>
-	</div> <!-- Carousel -->
 	<div id="content-text">
+		<h1 class="title">Menu</h1>
 		<h2>- Menu -</h2>
 		<div class="menu-cat">
 			<h3 class="highlights">Pizzas</h3>

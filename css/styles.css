@@ -22,6 +22,10 @@ body, nav {
 	color: white;
 }
 
+.title {
+	display: none;
+}
+
 #navigate {
 	width: 20%;
 	float: left;
@@ -215,6 +219,7 @@ h4 {
 	margin-bottom: 20px;
 }
 
+/*Hide single column navigation for regular screen size*/
 .navbar {
 	display: none;
 }
@@ -227,6 +232,7 @@ h4 {
 	display: none;
 }
 
+/*Dynamically adjust content display according to screen size*/
 @media screen and (max-width: 820px) {
 	#pizzavid {
 		display: none;

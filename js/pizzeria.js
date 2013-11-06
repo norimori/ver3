@@ -2,6 +2,13 @@
 
 //Document on ready
 $(function() {
+	//Change title tag according to page
+	var titleDisplay = 'Dawg Pizza:';
+	var title = $(".title").html;
+	console.log(title);
+	document.title = titleDisplay;
+
+	//Populate menu
 	var i; //iterator
 	var pizza; //Current pizza iteration
 	var pizzaName;
