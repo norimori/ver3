@@ -1,4 +1,4 @@
-//Dynamically add menu pizzas
+//Dynamically add menu items to Dawg Pizza Menu.
 
 //Document on ready
 $(function() {
@@ -53,7 +53,7 @@ $(function() {
 }); //Document on ready
 
 //Populate menus according to passed menu type.
-//@param - menu type to populate
+//@param - menuType to populate
 function otherMenus(menuType) {
 	var i; //iterator
 	var item; //Current item iteration
