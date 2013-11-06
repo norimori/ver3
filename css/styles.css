@@ -170,6 +170,10 @@ dt {
 	font-weight: bold;
 }
 
+dd {
+	margin-bottom: 20px;
+}
+
 #quickref {
 	width: 14%;
 	float: left;
@@ -251,6 +255,7 @@ h3 {
 h4 {
 	font-size: 150%;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 #drink {
