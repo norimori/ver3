@@ -55,7 +55,6 @@
 				<a href="http://www.youtube.com/watch?v=HWL__9yDu8I" target="_blank"><p>VIDEO: Click here for a sneak peak into how we make our pizzas!</p></a>
 			</div>
 		</div>
-		<h1>WHAT THE HAHAAAAAA</h1>
 	</main>
 
 	<div id="quickref">
