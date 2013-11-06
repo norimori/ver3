@@ -28,12 +28,12 @@
 					</div>
 				</div>
 			</div> <!-- Slides -->
-		    <!-- Left-right controls -->
+		    <!-- Left-right controls <span class="icon-prev"></span>-->
 		    <a class="left carousel-control" href="#pawnee-carousel" data-slide="prev">
-		        <span class="icon-prev"></span>
+		        <img src='img/pizza_left.png' alt='left arrow'>
 		    </a>
 		    <a class="right carousel-control" href="#pawnee-carousel" data-slide="next">
-		        <span class="icon-next"></span>
+		        <img src='img/pizza_right.png' alt='right arrow'>
 		    </a>
 		</div> <!-- Close carousel -->
 
