@@ -4,9 +4,8 @@
 $(function() {
 	//Change title tag according to page
 	var titleDisplay = 'Dawg Pizza:';
-	var title = $(".title").html;
-	console.log(title);
-	document.title = titleDisplay;
+	var title = $('.title').html();
+	document.title = titleDisplay + " " + title;
 
 	//Populate menu
 	var i; //iterator
@@ -60,7 +59,6 @@ function otherMenus(menuType) {
 	 	item = com.dawgpizza.menu[menuType][i];
 	 	itemName = $(document.createElement('li'));
 	 	itemName.html(item.name);
-	 	console.log(item.name);
 	 	$('.' + menuType).append(itemName.append($('<span/>', {text: ' $' + item.price})));
 	 	$('.' + menuType + ' span').addClass('cost');
 	}

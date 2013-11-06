@@ -22,14 +22,18 @@ body, nav {
 	color: white;
 }
 
+/*
+pizzeria.js handles dynamic title changes.
+Keep this for SEO.
+*/
 .title {
 	display: none;
 }
 
 #navigate {
-	width: 20%;
+	width: 15%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 15px;
 	top: 10%;
 	bottom: 10%;
 }
@@ -91,7 +95,7 @@ nav ul {
 
 main {
 	float: right;
-	width: 70%;
+	width: 65%;
 }
 
 .we-are {
@@ -152,6 +156,12 @@ h2 {
 	text-align: center;
 	font-weight: bold;
 	clear: left;
+}
+
+#quickref {
+	width: 15%;
+	float: left;
+	margin-left: 15px;
 }
 
 #footer {
