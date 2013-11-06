@@ -16,11 +16,6 @@ body, nav {
 	background-image: url(../img/mochaGrunge.png);
 }
 
-main {
-	float: right;
-	width: 70%;
-}
-
 .container {
 	width: 80%;
 	margin: auto;
@@ -35,7 +30,6 @@ main {
 	width: 20%;
 	float: left;
 	margin-right: 30px;
-	position: fixed;
 	top: 10%;
 	bottom: 10%;
 }
@@ -93,6 +87,11 @@ nav ul {
 
 #nav-bottom {
 	margin-bottom: 10px;
+}
+
+main {
+	float: right;
+	width: 70%;
 }
 
 .we-are {
