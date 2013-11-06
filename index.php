@@ -30,7 +30,7 @@
 			</div> <!-- Slides -->
 		    <!-- Left-right controls -->
 		    <a class="left carousel-control" href="#pawnee-carousel" data-slide="prev">
-		        <img <span class="icon-prev"></span>-->
+		        <img <span class="icon-prev"></span>
 		    </a>
 		    <a class="right carousel-control" href="#pawnee-carousel" data-slide="next">
 		        <span class="icon-next"></span>
