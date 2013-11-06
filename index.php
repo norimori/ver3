@@ -12,19 +12,19 @@
 				<div class="item active">
 					<img src="img/pizza1.jpg" alt="Pizza Photo">
 					<div class="carousel-caption">
-						<a href="index.php"><h1>Our Delicious Pizzas</h1></a>
+						<h1>Our Delicious Pizzas</h1>
 					</div>
 				</div>
 				<div class="item">
 					<img src="img/pizza-order.jpg" alt="Pizza Order Photo">
 					<div class="carousel-caption">
-						<a href="menu.php"><h1>Order Up!</h1></a>
+						<h1>Order Up!</h1>
 					</div>
 				</div>
 				<div class="item">
 					<img src="img/pizza-oven.jpg" alt="Pizza Oven Photo">
 					<div class="carousel-caption">
-						<a href="asut.php"><h1>Crispy and Juicy</h1></a>
+						<h1>Crispy and Juicy</h1>
 					</div>
 				</div>
 			</div> <!-- Slides -->
@@ -56,10 +56,5 @@
 			</div>
 		</div>
 	</main>
-
-	<!-- auto-play the carousel only for Home -->
-	<script>
-	    $('.carousel').carousel();
-	</script>
 
 <?php include("footer.html"); ?>

@@ -2,6 +2,9 @@
 
 //Document on ready
 $(function() {
+	//auto-play carousel
+    $('.carousel').carousel();
+
 	//Change title tag according to page
 	var titleDisplay = 'Dawg Pizza:';
 	var title = $('.title').html();
