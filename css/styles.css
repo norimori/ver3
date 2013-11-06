@@ -34,8 +34,7 @@ Keep this for SEO.
 	width: 15%;
 	float: left;
 	margin-right: 15px;
-	top: 10%;
-	bottom: 10%;
+	margin-top: 80px;
 }
 
 nav img {
@@ -162,6 +161,13 @@ h2 {
 	width: 15%;
 	float: left;
 	margin-left: 15px;
+	margin-top: 80px;
+	font-weight: bold;
+	color: #ecbf0f;
+}
+
+address {
+	text-decoration: underline;
 }
 
 #footer {
