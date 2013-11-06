@@ -17,7 +17,7 @@ body, nav {
 }
 
 .container {
-	width: 85%;
+	width: 90%;
 	margin: auto;
 	color: white;
 }
@@ -94,7 +94,7 @@ nav ul {
 
 main {
 	float: left;
-	width: 65%;
+	width: 60%;
 }
 
 .we-are {
@@ -158,7 +158,7 @@ h2 {
 }
 
 #quickref {
-	width: 15%;
+	width: 20%;
 	float: left;
 	margin-left: 15px;
 	margin-top: 230px;
@@ -168,6 +168,7 @@ h2 {
 
 .specifics {
 	color: #382f2f;	
+	font-size: 150%;
 }
 
 address {
