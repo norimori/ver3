@@ -1,4 +1,5 @@
 <?php include("header.html"); ?>
+<main>
 	<div id="content-text">
 		<h1 class="title">About</h1>
 		<div id="our-story">

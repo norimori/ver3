@@ -36,6 +36,7 @@
 	        <span class="icon-next"></span>
 	    </a>
 	</div> <!-- Close carousel -->
+	
 	<div id="content-text" class="center-text">
 		<h1 class="title">Home</h1>
 		<h1>We are...<img class="we-are" src="img/logo.png" alt="logo"></h1>

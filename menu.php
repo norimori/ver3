@@ -1,4 +1,5 @@
 <?php include("header.html"); ?>
+<main>
 	<div id="content-text">
 		<h1 class="title">Menu</h1>
 		<h2>- Menu -</h2>
