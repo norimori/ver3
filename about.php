@@ -1,9 +1,9 @@
 <?php include("header.html"); ?>
 <main>
 	<div id="content-text">
-		<h1 class="title">About</h1>
 		<h1>We are...<img class="we-are" src="img/logo.png" alt="logo"></h1>
 		<p>Awesome wood-fired pizza with fresh ingredients baked to order. Come in and eat, or call us for delivery!</p>
+		<h1 class="title">About</h1>
 		<div id="our-story">
 			<h2>- Our Story -</h2>
 			<p>
