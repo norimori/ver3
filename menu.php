@@ -17,11 +17,13 @@
 			<div class="col-md-6">
 				<h4>Meat Pies</h4>
 				<dl class="meat">
+					<!--Meat Pizzas populate here-->
 				</dl>
 			</div>
 			<div class="col-md-6">
 				<h4>Vegetarian Pies</h4>
 				<dl class="vegetarian">
+					<!--Vegetarian pizzas populate here-->
 				</dl>
 			</div>
 		</div>
@@ -29,12 +31,12 @@
 		<div class="center-text">
 			<h3 class="highlights">Drinks</h3>
 			<ul class="drinks">
-				<!--<li>Coke, Diet Coke, Sprite, Root Beer, or Irn Bru by the can <span class="cost">($4)</span></li>-->
+				<!--Drink items populate here-->
 			</ul>
 			<hr>
 			<h3 class="highlights">Dessert</h3>
 			<ul class="desserts">
-				<!--<li>Chocolate Gelato <span class="cost">($8)</span></li>-->
+				<!--Desert items populate here-->
 			</ul>
 		</div>
 	</div>
