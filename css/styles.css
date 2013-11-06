@@ -158,17 +158,22 @@ h2 {
 }
 
 #quickref {
-	width: 20%;
+	width: 15%;
 	float: left;
 	margin-left: 15px;
 	margin-top: 230px;
 	font-weight: bold;
 	color: #ecbf0f;
+	font-size: 150%
 }
 
 .specifics {
+	margin-bottom: 10px;
+}
+
+.specific-topic {
 	color: #382f2f;	
-	font-size: 150%;
+	font-size: 200%;
 }
 
 address {
