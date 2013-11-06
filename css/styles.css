@@ -161,9 +161,13 @@ h2 {
 	width: 15%;
 	float: left;
 	margin-left: 15px;
-	margin-top: 80px;
+	margin-top: 230px;
 	font-weight: bold;
 	color: #ecbf0f;
+}
+
+.specifics {
+	color: #382f2f;	
 }
 
 address {
