@@ -79,8 +79,10 @@ nav li:hover, nav a:focus {
 	background-color: #ecbf0f;
 }
 
-nav a:focus {
+ul a:focus {
 	background-image: none;
+	background-color: #ecbf0f;
+	border: solid 10px black;
 }
 
 nav ul {
