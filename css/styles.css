@@ -109,6 +109,10 @@ main {
 	line-height: 150pt;
 }
 
+.about-weare img {
+	height: 125px;
+}
+
 #logo {
 	padding: 15px;
 	-webkit-transition: all 0.4s ease;
