@@ -57,9 +57,9 @@
 		</div>
 	</main>
 
-<!-- auto-play the carousel only for Home -->
-<script>
-    $('.carousel').carousel();
-</script>
+	<!-- auto-play the carousel only for Home -->
+	<script>
+	    $('.carousel').carousel();
+	</script>
 
 <?php include("footer.html"); ?>
