@@ -1,9 +1,6 @@
 <?php include("header.html"); ?>
 <main>
 	<div id="content-text">
-		<div class="center-text specifics">
-			<h1>We are...<img class="we-are" src="img/logo.png" alt="logo"></h1>
-		</div>
 		<h1 class="title">About</h1>
 		<div id="our-story">
 			<h2>- Our Story -</h2>
