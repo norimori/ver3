@@ -166,6 +166,10 @@ h2 {
 	clear: left;
 }
 
+dt {
+	font-weight: bold;
+}
+
 #quickref {
 	width: 14%;
 	float: left;
