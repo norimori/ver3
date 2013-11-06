@@ -65,6 +65,9 @@ nav li{
 	text-align: center;
 	box-shadow: 2px 2px 6px #555;
 	padding: 10px;
+}
+
+nav li, nav a{
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -74,6 +77,10 @@ nav li{
 
 nav li:hover, nav a:focus {
 	background-color: #ecbf0f;
+}
+
+nav a:focus {
+	background-image: none;
 }
 
 nav ul {
