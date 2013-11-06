@@ -104,6 +104,10 @@ main {
 	vertical-align: middle
 }
 
+.pad-bottom{
+	margin-bottom: 20px;
+}
+
 #logo {
 	padding: 15px;
 	-webkit-transition: all 0.4s ease;
