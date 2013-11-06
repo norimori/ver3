@@ -55,8 +55,10 @@
 				<a href="http://www.youtube.com/watch?v=HWL__9yDu8I" target="_blank"><p>VIDEO: Click here for a sneak peak into how we make our pizzas!</p></a>
 			</div>
 		</div>
+		<h1>WHAT THE HAHAAAAAA</h1>
+	</main>
 
-			<div id="quickref">
+	<div id="quickref">
 		Hours: 10:00AM - 11:00PM Monday through Saturday<br>
 		Call for Delivery: (206) 555-1212<br>
 		Address:<br>
@@ -67,7 +69,6 @@
 			</a>
 		</address>
 	</div>
-	</main>
 
 	<!-- auto-play the carousel only for Home -->
 	<script>
